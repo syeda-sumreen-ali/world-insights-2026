@@ -1,0 +1,15 @@
+<svg viewBox="195 415 1000 165" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(215 390)">
+    <text x="0" y="142" font-family="Inter, Manrope, Arial, Helvetica, sans-serif" font-size="132" font-weight="800" letter-spacing="-5">
+      <tspan fill="#111C31">W</tspan><tspan fill="#111C31">orld</tspan><tspan fill="#2463F1">Insights</tspan>
+    </text>
+    <!-- Subtle horizon / insight mark inside the 'o' of World -->
+    <clipPath id="world-o-clip">
+      <ellipse cx="210" cy="103" rx="40" ry="42"/>
+    </clipPath>
+    <g clip-path="url(#world-o-clip)">
+      <path d="M168 108 C184 99, 199 98, 214 105 C228 112, 243 112, 258 104" stroke="#2463F1" stroke-width="13" stroke-linecap="round"/>
+      <path d="M171 118 C190 111, 208 111, 224 116 C236 120, 247 119, 256 113" stroke="#FFFFFF" stroke-opacity="0.9" stroke-width="6" stroke-linecap="round"/>
+    </g>
+  </g>
+</svg>
