@@ -25,8 +25,8 @@ const connectDB = async (): Promise<void> => {
     cached!.conn = await cached!.promise;
   } catch (err) {
     cached!.promise = null;
-    console.error('❌  MongoDB connection failed:', err);
-    process.exit(1);
+    // Do NOT call process.exit(1) in serverless — it crashes the function
+    throw err;
   }
 };
 
