@@ -1,3 +1,5 @@
+/// <reference types="vite/client" />
+
 // Teach TypeScript to treat SVG files as importable React components / URL strings
 declare module '*.svg' {
   const content: string;
